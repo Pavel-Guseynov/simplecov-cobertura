@@ -9,7 +9,7 @@ require_relative 'simplecov-cobertura/version'
 module SimpleCov
   module Formatter
     class CoberturaFormatter
-      RESULT_FILE_NAME = 'coverage.xml'
+      RESULT_FILE_NAME = ENV['CODERTURA'] || 'coverage.xml'
       DTD_URL = 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'
 
       def format(result)
