@@ -1,5 +1,6 @@
 # simplecov-cobertura 
-[![Build Status](https://travis-ci.com/dashingrocket/simplecov-cobertura.svg?branch=master)](https://travis-ci.com/dashingrocket/simplecov-cobertura)   [![Gem Version](https://badge.fury.io/rb/simplecov-cobertura.svg)](http://badge.fury.io/rb/simplecov-cobertura)  [![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/simplecov-cobertura?type=total)](https://rubygems.org/gems/simplecov-cobertura)
+[![Build](https://github.com/dashingrocket/simplecov-cobertura/actions/workflows/build.yml/badge.svg)](https://github.com/dashingrocket/simplecov-cobertura/actions/workflows/build.yml)   [![Gem Version](https://badge.fury.io/rb/simplecov-cobertura.svg)](http://badge.fury.io/rb/simplecov-cobertura)  [![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/simplecov-cobertura?type=total)](https://rubygems.org/gems/simplecov-cobertura)
+
 
 Produces [Cobertura](http://cobertura.sourceforge.net/) formatted XML from [SimpleCov](https://github.com/colszowka/simplecov).
 
@@ -32,29 +33,10 @@ SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 
 ## Continuous Integration
 Tested in a CI environment against the following Ruby versions:
+* 3.0
 * 2.7
 * 2.6
 * 2.5
-* 2.4
-* 2.3
-* 2.2
-* 2.1
-* 2.0
-* 1.9
-
-## Known Limitations
-* No support for branch coverage
-
-## Contributors
-  * Jesse Bowes
-  * Sean Clemmer
-  * Ivailo Petrov
-  * Rob Lester
-  * Denis <Zaratan> Pasin
-  * Jesper Rønn-Jensen
-  * Pramod Shinde
-  * Magnus Bergmark
-  * Peter Leitzen
 
 ## Contributing
 
@@ -65,7 +47,7 @@ Tested in a CI environment against the following Ruby versions:
 5. Create a new Pull Request
 
 ## License
-Copyright 2020 Dashing Rocket, Ltd.
+Copyright 2021 Dashing Rocket, Ltd.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
